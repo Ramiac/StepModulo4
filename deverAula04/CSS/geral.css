@@ -1,0 +1,30 @@
+#cont-princ {
+    margin-top: 35px;
+}
+
+.text-border{
+    text-shadow: 0 0 4px black;
+}
+
+.img-carousel{
+    height: 600px;
+}
+
+.img-cards{
+    max-height: 180px;
+}
+
+.row-sem-margin{
+    margin-bottom: 0px !important;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+  }
+  .list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+  }

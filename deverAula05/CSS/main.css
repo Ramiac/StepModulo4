@@ -1,0 +1,262 @@
+@import url("./var.css");
+body {
+    font-size: var(--fontGeralSize);
+    font-family: var(--fontGeralFamily);
+    font-weight: var(--fontGeralWeight);
+    color: var(--colorGeral);
+}
+
+header {
+    z-index: 3;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+.nav-link {
+    color: var(--colorGeral) !important;
+    font-size: 1.25em;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+.intro_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    background-position: center;
+    background-size: cover;
+}
+
+#intro {
+    position: relative;
+    background-color: rgb(1, 1, 0);
+    padding: 3em 4em;
+    text-align: center;
+}
+
+.intro-content {
+    position: relative;
+    z-index: 2;
+}
+
+#display-logo {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: 6em auto 2.66em;
+    width: 20em;
+    height: 20em;
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 .15em 3.5em 0 rgba(0, 0, 0, .5);
+    border-radius: .33em;
+}
+
+.company-logo {
+    width: 100%;
+    height: 100%;
+    border-radius: .2em;
+    display: block;
+    max-width: 100%;
+}
+
+.company-nome {
+    text-shadow: 0 1px .1em rgba(0, 0, 0, .5), 0 0 .2em rgba(0, 0, 0, .5);
+    font-size: 3.2em;
+    margin: 0 0 .333em;
+    color: #fff;
+    line-height: 1.35em;
+    font-size: 3em;
+    font-feature-settings: "lnum";
+    font-variant-numeric: lining-nums;
+    font-family: var(--FontTitulosFamily);
+    letter-spacing: .16em;
+    text-indent: .16em;
+    text-transform: uppercase;
+}
+
+.company-tagLine {
+    text-shadow: 0 1px .1em rgba(0, 0, 0, .5), 0 0 .2em rgba(0, 0, 0, .5);
+    font-size: 1.9em;
+    line-height: 1em;
+    margin: 0 0 1.5em;
+    color: rgba(232, 232, 231, .8);
+}
+
+.btn-dark {
+    background-color: var(--background-color);
+    border-color: var(--border-color);
+    text-transform: uppercase;
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+}
+
+.btn-light {
+    background-color: var(--background-color);
+    color: black;
+    border-color: var(--border-color);
+    text-transform: uppercase;
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+}
+
+.btn-dark:hover {
+    background-color: var(--background-color);
+    color: black;
+    border-color: var(--border-color);
+    text-transform: uppercase;
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+}
+
+.btn-light:hover {
+    background-color: var(--background-color);
+    color: white;
+    border-color: var(--border-color);
+    text-transform: uppercase;
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+}
+
+section {
+    padding: 8em;
+}
+
+#sobre-nos,
+#fotos,
+#info,
+#contato {
+    background-color: var(--BgSectionGray);
+}
+
+#reservas,
+#menu,
+#entrega,
+footer {
+    background-color: var(--BgSectionBlack);
+    color: var(--colorSectionBlack)
+}
+
+.section-titulos {
+    margin: 0 0 1.5em;
+    line-height: 1.35em;
+    font-size: 2.5em;
+    font-family: var(--FontTitulosFamily);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    text-indent: .2em;
+}
+
+.text {
+    margin: 0 0 3.2rem;
+    padding: 0 1.105em;
+    font-size: 1.9em;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+.btn-reservas {
+    width: 22em;
+    height: 3.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    text-align: center;
+    line-height: 1.1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.figure-img {
+    height: 100%;
+    max-height: 600px;
+}
+
+.inside-titulos {
+    text-transform: uppercase;
+    letter-spacing: .135em;
+    font-weight: 500;
+}
+
+.menu-item {
+    font-size: 1.75em !important;
+}
+
+.quadro-info {
+    background-color: white;
+    border-style: solid !important;
+    border: 1px;
+    border-color: var(--CinzaDoQadroInfo);
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 1.25em;
+}
+
+.GoogleMap {
+    min-width: 400px;
+    min-height: 300px;
+    border-style: solid !important;
+    border: 1px;
+    border-color: var(--CinzaDoQadroInfo);
+}
+
+.info-icons {
+    margin: 0px 10px 0px 0px;
+    font-size: 2em;
+    color: var(--CinzaDoQadroInfo);
+}
+
+.btn-quadroInfo {
+    margin-top: 42px;
+}
+
+.form-floating {
+    font-size: 1.75em;
+    color: rgb(63, 63, 63);
+}
+
+.contato-label {
+    margin-left: 15px;
+}
+
+textarea {
+    height: 200px !important;
+}
+
+.footer-alto {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.footer-icons {
+    font-size: 5em;
+    margin: 0em .25em 0em .25em;
+}
+
+.footer-company {
+    font-size: 1.25em;
+    color: var(--colorSectionBlack);
+}
+
+.footer-link {
+    color: var(--colorSectionBlack);
+}
+
+.footer-baixo {
+    font-size: 1.2em;
+    padding: 1.5em;
+    background-color: rgba(255, 255, 255, 0.1);
+    line-height: 1.2em;
+}

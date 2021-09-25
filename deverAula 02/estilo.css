@@ -1,0 +1,73 @@
+main{
+    margin-top: 70px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.bi-search{
+    padding: 8px;
+}
+
+.bi-search:hover{
+    background-color: #cceeff;
+    border-radius: 20px;
+    
+}
+
+.btnBusca:hover{
+    background-color: #f7f7f7;
+}
+
+.inputBusca:placeholder-shown{
+    font-style: italic;
+}
+
+#hrEstiloso{
+    margin-top: 75px;
+    border: 5px gray;
+}
+
+.card{
+    border: none;
+}
+
+.card-body{
+    padding-left: 0;
+    margin-right: 0;
+}
+
+.textImg{
+    position: relative;
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.card-img-top{
+    object-fit: none;
+    object-position: center;
+    width: 100%;
+    height: 250px;
+
+    /* height: 100%;
+    max-width: 250px; */
+}
+
+.textImg:hover{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.baixoEsquerda{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.cimaDireita{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}

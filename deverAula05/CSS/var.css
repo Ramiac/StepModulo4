@@ -1,0 +1,41 @@
+/* #### Google Fonts importacoes, parecidas do site de inspiracao ####*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+:root {
+    --fontGeralSize: 8.75px;
+    --fontGeralFamily: 'Montserrat', sans-serif;
+    --fontGeralWeight: 400;
+    --colorGeral: #050504;
+    --FontTitulosFamily: 'Raleway', sans-serif;
+    --BgSectionGray: #F6F6F6;
+    --colorSectionBlack: #F6F6F6;
+    --BgSectionBlack: #15140E;
+    --CinzaDoQadroInfo: rgb(202, 202, 202);
+}
+
+.btn-dark,
+.btn-light {
+    --font-weight: 500;
+    --font-size: 1.25em;
+    --letter-spacing: .12em;
+}
+
+.btn-dark {
+    --background-color: #15140E;
+    --border-color: #15140E;
+}
+
+.btn-light {
+    --background-color: white;
+    --border-color: white;
+}
+
+.btn-light:hover {
+    --background-color: rgb(54, 54, 54);
+    --border-color: rgb(54, 54, 54);
+}
+
+.btn-dark:hover {
+    --background-color: white;
+    --border-color: rgb(54, 54, 54);
+}

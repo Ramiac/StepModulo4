@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouStep Computer Academy</title>
+    <!--Materialize Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Bootstrap Compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Folha de Estilo -->
+    <link rel="stylesheet" href="./CSS/geral.css" type="text/css">
+
+
+
+
+</head>
+
+<body>
+    <!-- ##### Init da Nav ##### -->
+    <div class="container-fluid bg-primary text-white">
+        <div class="container ">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-2">YouStep Academy</span>
+                </a>
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#" class="nav-link link-light" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="#saiba-mais" class="nav-link link-light">Saiba Mais</a></li>
+                    <li class="nav-item"><a href="#fale-conosco" class="nav-link link-light">Fale Conosco</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link link-light">Contato</a></li>
+                </ul>
+            </header>
+        </div>
+    </div>
+    <!-- ##### Fim da Nav ##### -->
+    <div class="container" id="cont-princ">
+        <!-- Container Pincipal -->
+        <!-- Carousel -->
+        <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://oaformation.com/wp-content/uploads/2015/07/Etude-de-march%C3%A9.jpg"
+                        class="d-block w-100 img-carousel">
+                    <div class="carousel-caption d-none d-md-block text-border">
+                        <h5>Porque você gosta de estudar</h5>
+                        <p>Sim! tu gosta!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.dynamique-mag.com/wp-content/uploads/1311.jpg" class="d-block w-100 img-carousel">
+                    <div class="carousel-caption d-none d-md-block text-border">
+                        <h5>... e gosta de fazer desenhos</h5>
+                        <p>Mesmo queles servem para nada</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.lafactory.ma/wp3k/sites/uploads/2016/11/Etudes-les-diplo%CC%82mes-servent-ils-encore-a%CC%80-quelque-chose-.jpg"
+                        class="d-block w-100 img-carousel">
+                    <div class="carousel-caption d-none d-md-block text-border">
+                        <h5>Porque jogar um chapeu no ar?</h5>
+                        <p>"Se cai no chão, ta com chapeu sujo", Daila Lama</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="http://www.alexis-berger.com/wp-content/uploads/2016/09/Faut-il-faire-des-%C3%A9tudes-pour-r%C3%A9ussir.jpg"
+                        class="d-block w-100 img-carousel">
+                    <div class="carousel-caption d-none d-md-block text-border">
+                        <h5>Não acredite em tudo em aspas e com assinatrua</h5>
+                        <p>"Banana da Cancer" Gutemberg</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Fim do Carousel -->
+
+        <div class="d-flex flex-row justify-content-center mt-4">
+            <h1 class="display-6" id="saiba-mais">Saiba Mais</h1>
+        </div>
+        <!-- Saiba Mais - Cards -->
+        <div class="d-flex flex-row justify-content-evenly">
+            <div class="card">
+                <img class="card-img-top img-cards"
+                    src="https://www.assespropr.org.br/wp-content/uploads/2019/12/programa%C3%A7%C3%A3o-635x399.jpg">
+
+                <div class="card-body">
+                    <h5 class="card-title">Torne-se um programador full-stack</h5>
+                    <p class="card-text"><a href="https://itstep.com.br/curso-de-programacao" target="blank">Curso de
+                            programação</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-cards"
+                    src="https://www.pixelo.net/wp-content/uploads/2018/10/1934823-e1540532501723.jpg">
+
+                <div class="card-body">
+                    <h5 class="card-title">Torne-se um designer gráfico</h5>
+                    <p class="card-text"><a href="https://itstep.com.br/curso-de-programacao" target="blank">Curso de
+                            marketing digital</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-cards"
+                    src="https://www.conteudoinboundmarketing.com.br/wp-content/uploads/2019/07/iStock-984636634-1024x724.jpg">
+
+                <div class="card-body">
+                    <h5 class="card-title">Torne-se um digital marketer</h5>
+                    <p class="card-text"><a href="https://itstep.com.br/curso-de-programacao" target="blank">Curso de
+                            digital marketing</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Saiba Mais - Cards -->
+
+
+        <div class="d-flex flex-row justify-content-center mt-4">
+            <h1 class="display-6" id="fale-conosco">Fale Conosco</h1>
+        </div>
+        <!-- Fale conosco - FORM -->
+        <div class="container">
+            <form class="d-flex flex-column">
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="col-4">
+                        <label for="nomeCompleto" class="form-label">Nome Completo</label>
+                        <input id="nomeCompleto" type="text" class="form-control" required>
+                    </div>
+                    <div class="col-4">
+                        <label for="icon_telephone" class="form-label">Telefone</label>
+                        <input id="icon_telephone" type="tel" class="form-control" required>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="col-8">
+                        <label for="email" class="form-label">Email</label>
+                        <input id="email" type="email" class="form-control">
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="col-8">
+                        <label for="icon_prefix2" class="form-label">Comentário</label>
+                        <textarea id="icon_prefix2" class="form-control" required></textarea>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center my-3">
+                    <button class="btn btn-primary d-flex flex-row" type="submit" name="action">
+                        <div class="align-self-center px-2">Enviar</div>
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+
+            </form>
+        </div>
+        <!-- Fim do Fale conosco - FORM -->
+    </div> <!-- Fim do container principal -->
+
+    <!-- Footer -->
+
+    <footer class="container-fluid bg-dark">
+        <div class="container">
+            <div class="d-flex flex-column mb-3">
+                <div class="p-2">
+                    <h4 class="text-white m-4" id="contato">Contato</h4>
+                    <p>
+                    <div class="row">
+                        <div class="col col-1 text-center">
+                            <i class="material-icons dp48 text-white">location_on</i>
+                        </div>
+                        <div class="col col-md-5">
+                            <span class="text-white">Barra Square Shopping Center, Avenida das Américas 3.555, Bloco 1,
+                                Sala 301 - Barra da
+                                Tijuca, Rio de Janeiro, RJ </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-1 text-center">
+                            <i class="material-icons dp48 text-white">local_phone</i>
+                        </div>
+                        <div class="col col-md-5">
+                            <span class="text-white">(21) 97376-7307</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-1 text-center">
+                            <i class="material-icons dp48 text-white">email</i>
+                        </div>
+                        <div class="col col-md-5">
+                            <span class="text-white">rio@itstep.org</span>
+                        </div>
+                    </div>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p class="text-secondary">
+                © 2021 Copyright Rami
+            </p>
+        </div>
+    </footer>
+    <!-- Fim do Footer -->
+
+</body>
+
+<!-- Bootstrap Compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,17 @@
+.svgInfo {
+    height: 20px;
+    width: 20px;
+}
+
+.circuloInfo {
+    cx: 10px;
+    cy: 10px;
+    r: 10px;
+    fill: blue;
+}
+
+.textInfo {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    fill: white;
+}
