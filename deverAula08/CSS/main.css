@@ -1,6 +1,9 @@
 body {
-    margin-top: 100px;
+    margin-top: 80px;
 }
+
+
+/* ##### personalizacao controls 'modal de video personalizado' ##### */
 
 #buttonPlayPause,
 #buttonVolumeUp,
@@ -48,3 +51,11 @@ body {
 #timer {
     margin-top: 3px;
 }
+
+
+/* ##### personalizacaoi de modal videoJS ##### */
+
+
+/* #videoJS {
+    width: 100%;
+} */

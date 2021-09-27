@@ -8,6 +8,8 @@
     <title>Modals de video - Rami_deverAula08</title>
     <!-- CSS Bootstrap 5.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- CSS VideoJS -->
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
     <!-- CSS Geral -->
     <link rel="stylesheet" href="./CSS/main.css">
 </head>
@@ -27,18 +29,18 @@
                             <a class="nav-link active" href="#perso">Video control personalizados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Video iframe</a>
+                            <a class="nav-link" href="#iFrame">Video iframe</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Usando VideoJS</a>
+                            <a class="nav-link" href="#videoJs">Usando VideoJS</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="container d-flex justify-content-center">
-        <section id="perso" class="d-flex flex-column justify-content-center">
+    <main class="container d-flex flex-column justify-content-center">
+        <section id="perso" class="d-flex flex-column justify-content-center my-4">
             <h4 class="display-6 text-center mb-4">Um Modal com video local e control personalizados</h4>
             <!-- img trigger -->
 
@@ -85,16 +87,79 @@
             </div>
         </section>
 
+        <hr>
+
+        <section id="iFrame" class="d-flex flex-column justify-content-center my-4">
+            <h4 class="display-6 text-center mb-4">Um Modal com video Youtube no iFrame</h4>
+            <!-- img trigger -->
+
+            <img src="./IMG/Queen.jpg" alt="Queen Cover" type="button" data-bs-toggle="modal" data-bs-target="#modalVideoiFrame" class="mx-auto">
+
+            <!-- modal -->
+            <div class="modal fade" id="modalVideoiFrame" aria-labelledby="VideoiFrameLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="VideoiFrameLabel">Um Modal com Youtube Video no iframe</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/fJ9rUzIMcZQ" title="YouTube video player" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="videoJs" class="d-flex flex-column justify-content-center my-4">
+            <h4 class="display-6 text-center mb-4">Um modal com uso do framework VideoJS</h4>
+            <!-- img trigger -->
+
+            <img src="./IMG/Queen.jpg" alt="Queen Cover" type="button" data-bs-toggle="modal" data-bs-target="#modalVideoJS" class="mx-auto">
+
+            <!-- modal -->
+            <div class="modal fade" id="modalVideoJS" aria-labelledby="VideoJSLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="VideoJSLabel">Um modal com VideoJS</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <video-js id="videoJS" class="video-js vjs-16-9 vjs-big-play-centered" controls preload="auto" poster="./IMG/Queen.jpg" data-setup="{}">
+                                <source src="./VIDEO/QueenBohemianRhapsodyOfficialVideoRemastered_v720P.mp4" type="video/mp4" />
+                                <p class="vjs-no-js">
+                                    Impossível ler o Video. Atualize seu Internet Explorer.
+                                </p>
+                            </video-js>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
     <footer>
 
     </footer>
 
 </body>
-<!-- JS Bundel Bootstrap 5.1 -->
+<!-- JS Bundle Bootstrap 5.1 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/be40ef5ecd.js" crossorigin="anonymous"></script>
+<!-- JS VideoJS -->
+<script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
 <!-- Script Geral -->
 <script src="./JS/script.js"></script>
 
