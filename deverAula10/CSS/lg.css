@@ -1,0 +1,100 @@
+/* Para desktop: */
+.col-l-1 {width: 8.33%;}
+.col-l-2 {width: 16.66%;}
+.col-l-3 {width: 25%;}
+.col-l-4 {width: 33.33%;}
+.col-l-5 {width: 41.66%;}
+.col-l-6 {width: 50%;}
+.col-l-7 {width: 58.33%;}
+.col-l-8 {width: 66.66%;}
+.col-l-9 {width: 75%;}
+.col-l-10 {width: 83.33%;}
+.col-l-11 {width: 91.66%;}
+.col-l-12 {width: 100%;}
+
+/* Geral */
+
+.flex-container-lg{
+    display:flex;
+}
+
+.align-items-start{
+    align-items:flex-start !important;
+}
+
+.flex-row-lg{
+    flex-direction: row;
+}
+
+.flex-row-lg{
+  flex-direction: row;
+}
+
+.flex-column-lg{
+  flex-direction: column;
+}
+
+.displayNone-lg{
+    display: none;
+}
+
+/* Divisora */
+
+#divider{
+    margin-bottom: 60px;
+}
+
+/* Banner Principal */
+
+.carousel-item {
+    height: 550px;
+}
+
+.carousel-item img {
+    height: 150%;
+}
+
+.headLine{
+    width: 90%;
+}
+
+.welcomeTitulo{
+    font-size: 45px;
+}
+
+/* Section de Ofertas */
+
+.ofertaBloco{
+    padding-inline: 30px;
+}
+
+.iconWrapper{
+    font-size: 90px;
+    line-height: 90px;
+    padding: 28px;
+}
+
+.iconWrapper:hover{
+    font-size: 90px;
+    line-height: 90px;
+    padding: 28px;
+}
+
+.iconMoney{
+    width: 90px !important;
+}
+
+.ofertaText {
+    font-size: 20px;
+}
+
+/* Footer */
+
+footer{
+    padding: 30px;
+}
+
+
+
+
+

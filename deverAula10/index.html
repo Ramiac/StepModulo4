@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amil Rio</title>
+    <!-- Bootstrap Style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Geral Style -->
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+
+<body>
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./IMG/Amil-logo.jpeg" alt="Amil Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Adesão</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Empresarial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Familiar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="Welcome">
+            <div id="bannerPrincipal" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./IMG/slide-family-1.jpg" class="d-block w-100" alt="family1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./IMG/slide-family-2.jpg" class="d-block w-100" alt="family2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./IMG/slide-family-3.jpg" class="d-block w-100" alt="family3">
+                    </div>
+                </div>
+                <div class="headLine flex-container flex-row-lg flex-column-s align-items-center">
+                    <div class="flex-container flex-column col-l-8 col-s-12 headlineTitulo">
+                        <h1 class="welcomeTitulo">REDUZIMOS O VALOR DO SEU PLANO DE SAÚDE</h1>
+                        <p class="asterixTitulo">* Plano adesão e empresarial de acordo com o plano e número de vidas.
+                        </p>
+                    </div>
+                    <form class="welcomeForm flex-container-lg displayNone-s flex-column col-l-4">
+                        <input type="text" name="" id="" class="form-control welcomeInput" placeholder="Nome">
+                        <input type="text" name="" id="" class="form-control welcomeInput" placeholder="E-mail">
+                        <input type="text" name="" id="" class="form-control welcomeInput" placeholder="Telefone">
+                        <input type="text" name="" id="" class="form-control welcomeInput"
+                            placeholder="número de vidas">
+                        <input type="submit" value="SIMULAR AGORA" class="btn btn-success welcomeButton">
+                    </form>
+
+                    <!-- modal para modo Celular -->
+                    <div class="welcomeForm flex-container-s displayNone-lg flex-column col-s-8">
+                        <!-- Chama Modal -->
+                        <button type="button" class="btn welcomeButton" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            SIMULAR AGORA
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="welcomeForm flex-container-s flex-column col-l-4">
+                                <input type="text" name="" id="" class="form-control welcomeInput" placeholder="Nome">
+                                <input type="text" name="" id="" class="form-control welcomeInput" placeholder="E-mail">
+                                <input type="text" name="" id="" class="form-control welcomeInput"
+                                    placeholder="Telefone">
+                                <input type="text" name="" id="" class="form-control welcomeInput"
+                                    placeholder="número de vidas">
+                                <input type="submit" value="SIMULAR AGORA" class="btn btn-success welcomeButton">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="divider">
+            <div class="barra"></div>
+            <div class="seta-azul">
+                <img src="./IMG/seta-azul.png" alt="seta azul" class="seta">
+            </div>
+        </div>
+
+        <section id="ofertas" class="sectionContainer">
+            <div class="flex-container justify-content-evenly flex-row-lg flex-column-s">
+
+                <div class="ofertaBloco">
+                    <div class="iconWrapper">
+                        <i class="iconMoney fa fa-money"></i>
+                    </div>
+                    <h5 class="ofertaTitulo">
+                        <strong>PREÇOS E CONDIÇÕES IMPERDÍVEIS</strong>
+                    </h5>
+                    <p class="ofertaText">
+                        Condições especiais e preços que cabem no seu bolso.
+                    </p>
+                </div>
+
+                <div class="ofertaBloco">
+                    <div class="iconWrapper">
+                        <i class="fas fa-medkit"></i>
+                    </div>
+                    <h5 class="ofertaTitulo">
+                        <strong>PREÇOS E CONDIÇÕES IMPERDÍVEIS</strong>
+                    </h5>
+                    <p class="ofertaText">
+                        Condições especiais e preços que cabem no seu bolso.
+                    </p>
+                </div>
+
+                <div class="ofertaBloco">
+                    <div class="iconWrapper">
+                        <i class="fas fa-headphones-alt"></i>
+                    </div>
+                    <h5 class="ofertaTitulo">
+                        <strong>PREÇOS E CONDIÇÕES IMPERDÍVEIS</strong>
+                    </h5>
+                    <p class="ofertaText">
+                        Condições especiais e preços que cabem no seu bolso.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <div id="divider" class="displayNone-s">
+            <div class="barra"></div>
+            <div class="seta-azul">
+                <img src="./IMG/seta-azul.png" alt="seta azul" class="seta">
+            </div>
+        </div>
+
+        <section id="CarouselQueSome" class="displayNone-s">
+            <div class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./IMG/slide-family-1.jpg" class="d-block w-100" alt="family1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./IMG/slide-family-2.jpg" class="d-block w-100" alt="family2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./IMG/slide-family-3.jpg" class="d-block w-100" alt="family3">
+                    </div>
+                </div>
+                <div class="headLine">
+
+                    <h1 class="welcomeTitulo">CAROSSEL QUE SOME NO MODO CELULAR</h1>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="flex-container align-items-center justify-content-center">
+        <h1 class="footerTitulo">REDUZA O VALOR DO PLANO EM ATÉ 40%</h1>
+    </footer>
+
+</body>
+<!-- Boostrap Js Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+</script>
+<!-- script Font Awesome -->
+<script src="https://kit.fontawesome.com/be40ef5ecd.js" crossorigin="anonymous"></script>
+
+
+</html>
